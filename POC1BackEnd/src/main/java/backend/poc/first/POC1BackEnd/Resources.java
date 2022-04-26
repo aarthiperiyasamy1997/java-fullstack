@@ -65,7 +65,7 @@ public class Resources {
 	}
 	public void setUsalary(int usalary) {
 		this.usalary = usalary;
-	}
+	}   
 	public String[] getUskills() {
 		return uskills;
 	}
