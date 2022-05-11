@@ -26,10 +26,22 @@ public class Resources {
 	@Column(name="userskills")
 	private String[] uskills;
 	
+	public Resources(int uid, String uname, String uplace, int usalary, String[] uskills) {
+		super();
+		this.uid = uid;
+		this.uname = uname;
+		this.uplace = uplace;
+		this.usalary = usalary;
+		this.uskills = uskills;
+	}
+
+
 	public Resources() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	
 	@Override
 	public String toString() {
 		return "Resources [uid=" + 	uid + ", uname=" + uname + ", uplace=" + uplace + ", usalary=" + usalary
